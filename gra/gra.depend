@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1784124908 source:/home/tukan/codeblocks/gra/main.cpp
+	<iostream>
+	<cstdlib>
+	<time.h>
+
