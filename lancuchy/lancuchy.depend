@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1784893341 source:/home/tukan/codeblocks/nauka_cpp/lancuchy/main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+
