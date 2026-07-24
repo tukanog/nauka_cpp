@@ -3,7 +3,7 @@
 
 using namespace std;
 
-long double fibonacci[100000]; int n;
+long double fibonacci[100000]; int n; // long double umożliwia zapisanie ogromnych liczb, ale w zapisie z tym e
 
 int main()
 {
@@ -17,13 +17,13 @@ int main()
         fibonacci[i] = fibonacci[i - 2] + fibonacci[i - 1];
     }
 
-    cout << setprecision(10000);
+    cout << setprecision(10000); // to pozwala na zapisanie tych liczb z long double jako normalne liczby
 
-    //for (int i = 0; i <= n - 1; i++) {
-    //    cout << "Wyraz nr " << i + 1 << ": " << fibonacci[i] << endl;
-    //}
+    for (int i = 0; i <= n - 1; i++) {
+        cout << "Wyraz nr " << i + 1 << ": " << fibonacci[i] << endl;
+    }
 
-    //cout << endl << fibonacci[n - 1];
+    cout << endl << fibonacci[n - 1];
 
     cout << "Złota liczba: " << fibonacci[n-1] / fibonacci[n - 2];
 
