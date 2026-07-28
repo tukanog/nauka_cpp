@@ -3,14 +3,12 @@
 
 using namespace std;
 
-int n;
+long double fibonacci[100000]; int n; // long double umożliwia zapisanie ogromnych liczb, ale w zapisie z tym e
 
 int main()
 {
     cout << "Ile liczb Fibonacciego mam wyznaczyć?: ";
     cin >> n;
-
-    long double fibonacci[n]; // long double umożliwia zapisanie ogromnych liczb, ale w zapisie z tym e
 
     fibonacci[0] = 1;
     fibonacci[1] = 1;
@@ -25,6 +23,9 @@ int main()
         cout << "Wyraz nr " << i + 1 << ": " << fibonacci[i] << endl;
     }
 
+    cout << endl << fibonacci[n - 1];
+
+    cout << "Złota liczba: " << fibonacci[n-1] / fibonacci[n - 2];
 
     return 0;
 }
