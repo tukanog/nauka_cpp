@@ -6,8 +6,7 @@ int A, B;
 
 int main()
 {
-    cin >> A;
-    cin >> B;
+    cin >> A >> B;
 
     cout << A + B;
 }
