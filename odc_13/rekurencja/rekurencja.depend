@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1786214358 source:/home/tukan/Pulpit/codeblocks/nauka_cpp/odc_13/rekurencja/main.cpp
+	<iostream>
+	<time.h>
+
