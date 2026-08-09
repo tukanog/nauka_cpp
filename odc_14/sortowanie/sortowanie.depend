@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1786285269 source:/home/tukan/Pulpit/codeblocks/nauka_cpp/odc_14/sortowanie/main.cpp
+	<iostream>
+	<time.h>
+	<cstdlib>
+
