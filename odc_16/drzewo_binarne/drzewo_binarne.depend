@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1786886373 source:/home/tukan/Pulpit/codeblocks/nauka_cpp/odc_16/drzewo_binarne/main.cpp
+	<iostream>
+	<unistd.h>
+	<thread>
+	<chrono>
+
