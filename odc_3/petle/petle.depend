@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1784123348 source:/home/tukan/codeblocks/petle/main.cpp
-	<iostream>
-	<unistd.h>
-	<cstdlib>
-

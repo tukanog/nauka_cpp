@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1785238524 source:/home/tukan/codeblocks/nauka_cpp/wskazniki2/main.cpp
-	<iostream>
-	<time.h>
-	<cstdlib>
-
