@@ -29,7 +29,7 @@ int main()
     cout << napiskkk << endl;
 
     string napismufinek = "Ala ma kota";
-    napismufinek.erase(3,3); // od indeksu 3 przez 3 znaki
+    napismufinek.erase(3,3); // od indeksu 3. przez 3 znaki
     cout << napismufinek << endl;
 
     string napismufi = "Ala ma kota";
